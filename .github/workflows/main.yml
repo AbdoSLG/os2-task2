@@ -23,7 +23,7 @@ jobs:
 
       
       - name: "build image in docker hub"
-        run: docker build -t ${{ secrets.user_name }}/myImage .
+        run: docker build -t ${{ secrets.user_name }}/myimage .
       
       
       - name: "push image in docker hub"
