@@ -27,5 +27,5 @@ jobs:
       
       
       - name: "push image in docker hub"
-        run: docker push ${{ secrets.user_name }}/myImage .
+        run: docker push ${{ secrets.user_name }}/myImage
       
